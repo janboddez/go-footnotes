@@ -22,9 +22,9 @@ class GO_Footnotes {
 	}
 
 	/**
-	 * (Properly) defines the `footnote` shortcode. Will make it behave, e.g.,
-	 * in excerpts. Since @see GO_Footnotes::filter_content() is normally run
-	 * before 'do_shortcode', returning an empty string is probably just fine.
+	 * Helps (properly) define the `footnote` shortcode. Will make it behave,
+	 * e.g., in excerpts. Since @see GO_Footnotes::filter_content() is normally
+	 * run before 'do_shortcode', returning an empty string is probably best.
 	 *
 	 * @param $atts Shortcode attributes. Not used.
 	 * @param $content Content to be filtered. Or not filtered, here.
