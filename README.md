@@ -4,7 +4,7 @@ Easily add footnotes to WordPress content. Zero HTML knowledge required.
 
 # Installation
 
-Simply install the plugin using either the (https://github.com/janboddez/go-footnotes/archive/master.zip)[zip archive] or excellent GitHub Updater (https://github.com/afragen/github-updater) plugin.
+Simply install the plugin using either the [zip archive](https://github.com/janboddez/go-footnotes/archive/master.zip) or excellent GitHub Updater (https://github.com/afragen/github-updater) plugin.
 
 # Usage
 
