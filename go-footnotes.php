@@ -1,7 +1,8 @@
 <?php
 /**
  * Plugin Name: Footnotes
- * Plugin URI: https://github.com/janboddez/go-footnotes
+ * Plugin URI: https://github.com/janboddez/go-footnotes/
+ * GitHub Plugin URI: https://github.com/janboddez/go-footnotes/
  * Description: Surprisingly easily add footnotes to WordPress posts and pages.
  * Version: 0.1
  * Author: Jan Boddez
@@ -22,9 +23,11 @@ class GO_Footnotes {
 	}
 
 	/**
-	 * Helps (properly) define the `footnote` shortcode. Will make it behave,
-	 * e.g., in excerpts. Since @see GO_Footnotes::filter_content() is normally
-	 * run before 'do_shortcode', returning an empty string is probably best.
+	 * Helps (properly) define the `footnote` shortcode.
+	 *
+	 * Will make the shortcode behave, e.g., in excerpts. Since @see
+	 * GO_Footnotes::filter_content() is normally run before 'do_shortcode',
+	 * returning an empty string is probably best.
 	 *
 	 * @param $atts Shortcode attributes. Not used.
 	 * @param $content Content to be filtered. Or not filtered, here.
@@ -66,7 +69,7 @@ class GO_Footnotes {
 							// Append a new list item to the output string.
 							$output .= '<li id="fn-' . $post_ID . '-' . $count . '">' . $footnote . "</li>\n";
 						} else {
-							// Rather than 'wait' for the 'actual shortcode "parsing"', delete empty notes now.
+							// Rather than 'wait' for the actual shortcode 'parsing' to do so, delete empty notes now.
 							$content = substr_replace( $content, '', $pos, strlen( $matches[0][$index] ) );
 						}
 					}
