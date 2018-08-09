@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Footnotes
- * Plugin URI: https://github.com/janboddez/go-footnotes/
- * GitHub Plugin URI: https://github.com/janboddez/go-footnotes/
+ * Plugin URI: https://github.com/janboddez/go-footnotes
+ * GitHub Plugin URI: https://github.com/janboddez/go-footnotes
  * Description: Surprisingly easily add footnotes to WordPress posts and pages.
  * Version: 0.1.1
  * Author: Jan Boddez
